@@ -1,0 +1,35 @@
+NOTEPAD CONTENTS:
+
+Open browser and type: steam://nav/console
+
+This will open steam.^
+
+Paste this command in the Steam Console: download_depot 329050 329051 2134096917157924646
+
+Now, on your computer go to the location the STEAM CONSOLE provided. 
+
+This is where mine was located so you might find it there.
+Program Files (x86)\Steam\steamapps\content\app_329050\depot_329051
+
+Open the HEX editor (Pick your language, but my tutorial is only in English so it may not translate correctly)
+
+HEX editor download: 
+https://shorturl.at/tpLy5
+
+Once in the hex editor hit the keybind CTRL + G to open the offset.
+
+Type: 6790E7 (hex) or 6787303 (dec)
+
+Older Version: (PRE-2018.03.28)
+WW: 6964ac | 6907052 (dec)
+Japanese Version: 69686c (hex) 6908012 (dec)
+
+1280xAny and above: 00 05 00 00 
+1360xAny and above: 50 05 00 00
+1440xAny and above: A0 05 00 00
+1600xAny and above: 40 06 00 00
+1920xAny and above: 80 07 00 00
+2560xAny and above: 00 0A 00 00
+3840xAny and above: 00 0F 00 00
+
+steam setting fullscreen:-w 1920 -h 1080
